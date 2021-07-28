@@ -1,11 +1,6 @@
 ﻿using System;
 using System.Threading;
-/*
-Картинка скачет только первые ~10 секунд (до тех пор, пока ползунок не опуститься полностью вниз)
-После картинка станет плавной
-Связано это с тем, что набор элементов в Frames.cs разного размера
-p.s. да, мне лень это фиксить.
-*/
+
 namespace PlanyaDancing
 {
     class Program
@@ -17,7 +12,7 @@ namespace PlanyaDancing
             int consoleWidth = 45;
             int consoleHeight = 50;
 
-#pragma warning disable CA1416 // Проверка совместимости платформы
+#pragma warning disable CA1416 // Checking platform compatibility
             Console.SetWindowSize(width: consoleWidth,
                                   height: consoleHeight);
             int speedFrame = 80;
