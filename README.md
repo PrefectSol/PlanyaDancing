@@ -1,9 +1,9 @@
-Dancing girl on your console.
+Танцующая девушка на вашей консоли
 
-DOES NOT WORK ON PHONES!
-The picture jumps only for the first ~10 seconds (until the slider goes completely down)
-After that, the picture will become smooth
-This is due to the fact that the set of elements in Frames.cs is of different sizes
-P.S. yes, i'm too lazy to fix it.
+НЕ РАБОТАЕТ НА ТЕЛЕФОНАХ!
 
-In Frames.cs there is a set of images that is moved to Program.cs
+Картинка прыгает только в течении первых ~15 секунд (до тех пор, пока ползунок на консоли не опустится в самый низ)
+После картинка станет плавной.
+Это связано с тем, что набор элементов в Frames.cs имеет разные размеры.
+
+В файле Frames.cs есть набор изображений, который используется в файле Program.cs
