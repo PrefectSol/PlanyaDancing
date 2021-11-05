@@ -1,7 +1,9 @@
-Dancing girl on your console.
+Танцующая девушка на вашей консоли
 
-DOES NOT WORK ON PHONES!
-The picture jumps only for the first ~10 seconds (until the slider goes completely down)
-After that, the picture will become smooth
-This is due to the fact that the set of elements in Frames.cs is of different sizes
-P.S. yes, i'm too lazy to fix it.
+При некоторых размерах консоли программа может не работать.
+
+Картинка прыгает только в течении первых ~15 секунд (до тех пор, пока ползунок на консоли не опустится в самый низ). После картинка должна стать плавной. Это связано с тем, что набор элементов в Frames.cs имеет разные размеры, а также со скоростью отрисовки символов в консоли.
+
+В файле Frames.cs есть набор изображений, который прокручивается в файле Program.cs
+
+Для изменения анимации необходимо изменить набор элементов в массиве, который находится в классе Frames, а также изменить размеры консоли.
