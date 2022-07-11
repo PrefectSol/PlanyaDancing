@@ -1,1 +1,1 @@
-Aimated dance
+Animated dance
